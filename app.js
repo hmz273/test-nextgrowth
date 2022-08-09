@@ -9,6 +9,8 @@ app.use(express.json());
 
 // Routes
 app.use(require("./route/product.route"));
+app.use(require("./route/variant.route"));
+
 // app.use("/api/cars", require("./Cars/route"));
 // app.use("/api/booking", require("./Booking/route"));
 

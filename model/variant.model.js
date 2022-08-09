@@ -16,8 +16,9 @@ const variantSchema = new Schema({
     required: true,
   },
 
+
 });
 
-const variant = mongoose.model("variant", variantSchema);
+const variant = model("variant", variantSchema);
 
 module.exports = variant;
